@@ -1,0 +1,226 @@
+body {
+background: url(subtle_white_feathers.png);
+width: 100%;
+height: 100%;
+font-family: Nunito Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+color: rgba(0,0,0,0.6);
+}
+
+.main-content {
+display: flex;
+flex-direction: column;
+background-color: white;
+width: 1000px;
+height: 100%;
+margin: 0 auto;
+justify-content: center;
+}
+
+.recipe-name {
+display: flex;
+flex-direction: row;
+font-size: 47px; 
+justify-content: center;
+font-weight: 500;
+color: rgba(0,0,0,0.6);
+margin-top: 20px;
+}
+
+.article {
+display: flex;
+flex-direction: row;
+font-size: 15px; 
+justify-content: center;
+font-weight: 100;
+color: rgba(0,0,0,0.6);
+margin-top: 20px;
+}
+
+.fas {
+font-size: 19px; 
+margin: 10px;
+}
+
+.fas:hover {
+opacity: 0.7;
+transition-duration: 0.2s;
+} 
+
+.info {
+display: flex;
+flex-direction: row;
+font-size: 15px; 
+font-weight: 100;
+color: rgba(0,0,0,0.6);
+margin-top: 20px;
+justify-content: center;
+padding-left: 30px;
+margin-left: -48px;
+}
+
+.info-item {
+margin: 20px;
+}
+
+.break {
+position: relative;
+}
+
+.break::after {
+content: "";
+position: absolute;
+top: 3px;
+width: 1px;
+height: 26px;
+background: #b8b8b8;
+right: -25px;
+}
+
+.pirogen-picture {
+display: flex;
+flex-direction: row;
+justify-content: center;
+border: 1px solid  #b8b8b8;
+padding: 20px;
+width: 720px;
+margin: 0 auto;
+}
+
+.pirogen-pic {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.ingredienrs-list {
+display: flex;
+flex-direction: column;
+}
+
+.ingredients {
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-weight: 600;
+font-size: 21px;
+}
+
+.ingr-content {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 20px;
+border-spacing: 210px 14px;
+line-height: 25px;
+}
+
+td {
+height: 30px;
+width: 300px;
+}
+
+th {
+font-weight: 500;
+border-bottom: 1px solid #b8b8b857;
+}
+
+.gram {
+width:160px;
+padding-left: 30px;
+}
+
+.photo-stepbystep {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.recipe {
+font-weight: 600;
+margin: 20px;
+font-size: 21px;
+}
+
+.instruction-item {
+display: flex;
+flex-direction: column;
+}
+
+.title {
+margin-top: 20px;
+margin-bottom: 20px;
+font-weight: 500;
+}
+
+.instruction {
+display: flex;
+flex-direction: row;
+margin: 20px auto;
+width: 760px;
+line-height: 28px;
+}
+
+img {
+transition: all 1.3s;
+}
+
+img:hover {
+transform: scale(1.02);
+}
+
+.footer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-top: 1px solid #b8b8b857;
+margin-top: 20px;
+}
+
+.copyright {
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-weight: 100;
+font-size: 13px;
+position: relative;
+opacity: 0.9;
+margin-bottom: 20px;
+}
+
+.fa-copyright {
+position: absolute;
+right: 592px;
+top: 2px;
+font-size: 12px;
+}
+
+.share {
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-size: 20px;
+margin-left: -10px;
+}
+
+.vk,
+.fb,
+.tel {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 25px;
+}
+
+.vk,
+.tel {
+font-size: 22px;
+}
+
+a {
+color: #b8b8b8 !important;
+text-decoration: none;
+}
+
+a:hover {
+opacity: 0.7;
+}
